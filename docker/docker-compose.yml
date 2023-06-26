@@ -15,7 +15,7 @@ services:
       - REACT_APP_API_HOST=todoback
 
   todotests:
-    build: todotests
+    image: todotests
     depends_on:
       - todoback
       - todofront
